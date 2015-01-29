@@ -13,7 +13,9 @@ Has 3 events:
 
 
 Example usage:
-<a href=http://pastebin.com/u4gGs9Yh>Click Here</a>
+<a href="http://pastebin.com/u4gGs9Yh">Click Here</a>
 
 
-<img src=http://puu.sh/fc4t9/0b6cf03b97.png></img>
+<img src="http://puu.sh/fc4t9/0b6cf03b97.png"></img>
+<br>
+<a href="https://github.com/ancientgods/BruteForcerLib/blob/master/BruteForceLib/obj/Debug/BruteForceLib.dll?raw=true">Download dll here</a>
