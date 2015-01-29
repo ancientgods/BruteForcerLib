@@ -78,7 +78,7 @@ namespace BruteForceLib
 
         public void SetChars(params char[] Chars)
         {
-            chars = string.Join("", Chars);   
+            chars = string.Join("", Chars);
         }
 
         public void Start(string PassToCrack)
@@ -106,7 +106,7 @@ namespace BruteForceLib
             switch (encryptionType)
             {
                 case EncryptionType.Sha512:
-                    return BitConverter.ToString(((System.Security.Cryptography.SHA512)new System.Security.Cryptography.SHA512Managed()).ComputeHash(System.Text.Encoding.ASCII.GetBytes(s))).Replace("-", "");                    
+                    return BitConverter.ToString(((System.Security.Cryptography.SHA512)new System.Security.Cryptography.SHA512Managed()).ComputeHash(System.Text.Encoding.ASCII.GetBytes(s))).Replace("-", "");
             }
             return s;
         }
@@ -123,7 +123,7 @@ namespace BruteForceLib
             threadTimer = Stopwatch.StartNew();
             while (isRunning)
             {
-                int percentage = (int)(100 * attempts /MaxAttempts);
+                int percentage = (int)(100 * attempts / MaxAttempts);
                 if (percentage > progress)
                 {
                     progress = percentage;
@@ -135,7 +135,7 @@ namespace BruteForceLib
 
                 if (encryptionType != EncryptionType.None)
                 {
-                    pass = GetEncryption(pass);                   
+                    pass = GetEncryption(pass);
                 }
                 if (pass == passToCrack)
                 {
