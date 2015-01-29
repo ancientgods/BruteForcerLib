@@ -13,7 +13,7 @@ Has 3 events:
 
 
 Example usage:
-http://pastebin.com/u4gGs9Yh
+<a href=http://pastebin.com/u4gGs9Yh>Click Here</a>
 
-Image:
-http://puu.sh/fc4t9/0b6cf03b97.png
+
+<img src=http://puu.sh/fc4t9/0b6cf03b97.png></img>
